@@ -1,7 +1,8 @@
 class Pizza
-  attr_reader :cheese
+  attr_reader :cheese, :pepperoni, :bacon, :sausage, :mushroom, :onion,
+  :jalapeno, :green_pepper
 
-  def initialize(topping)
+  def initialize(toppings)
     @cheese = cheese
   end
 
